@@ -16,6 +16,7 @@
 		347BE4922926376B0075F321 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347BE4912926376B0075F321 /* AVFoundation.framework */; };
 		34AA11E7292CE03400CF9FB9 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34AA11E6292CE03400CF9FB9 /* AVKit.framework */; };
 		34AA11E9292CE16800CF9FB9 /* muthu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 34AA11E8292CE16800CF9FB9 /* muthu.mp3 */; };
+		34AA11EC292D144300CF9FB9 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 34AA11E5292CE01F00CF9FB9 /* video.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +29,7 @@
 		347BE486292636800075F321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		347BE488292636800075F321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		347BE4912926376B0075F321 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		34AA11E5292CE01F00CF9FB9 /* VID_20221023_161044.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = VID_20221023_161044.mp4; path = "../../../Photos/Manali Trip/Pav/cam/VID_20221023_161044.mp4"; sourceTree = "<group>"; };
+		34AA11E5292CE01F00CF9FB9 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = video.mp4; path = "../../../Photos/Manali Trip/Pav/cam/video.mp4"; sourceTree = "<group>"; };
 		34AA11E6292CE03400CF9FB9 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		34AA11E8292CE16800CF9FB9 /* muthu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = muthu.mp3; path = ../../../muthu.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,7 +69,7 @@
 			children = (
 				347BE47A2926367F0075F321 /* AppDelegate.swift */,
 				34AA11E8292CE16800CF9FB9 /* muthu.mp3 */,
-				34AA11E5292CE01F00CF9FB9 /* VID_20221023_161044.mp4 */,
+				34AA11E5292CE01F00CF9FB9 /* video.mp4 */,
 				347BE47C2926367F0075F321 /* SceneDelegate.swift */,
 				347BE47E2926367F0075F321 /* ViewController.swift */,
 				347BE4802926367F0075F321 /* Main.storyboard */,
@@ -146,6 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34AA11EC292D144300CF9FB9 /* video.mp4 in Resources */,
 				34AA11E9292CE16800CF9FB9 /* muthu.mp3 in Resources */,
 				347BE487292636800075F321 /* LaunchScreen.storyboard in Resources */,
 				347BE484292636800075F321 /* Assets.xcassets in Resources */,

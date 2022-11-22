@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     var player:AVAudioPlayer = AVAudioPlayer()
     override func viewDidLoad() {
        super.viewDidLoad()
+//        ---------Audio----------
         do{
             let audiopath = Bundle.main.path(forResource: "muthu", ofType: "mp3")
             try player = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audiopath!) as URL)
@@ -22,6 +23,7 @@ class ViewController: UIViewController {
             
         }
         // Do any additional setup after loading the view.
+
     }
     
     @IBAction func play(_ sender: Any) {
@@ -41,5 +43,21 @@ class ViewController: UIViewController {
         player.pause()
     }
     
+    //        ---------Video----------
+            var path:NSURL!
+            var videoPlayer:AVPlayer!
+            var videoPlayerController:AVPlayerViewController!
+    
+    
+    @IBAction func vd(_ sender: Any) {
+        path = NSURL(fileURLWithPath: Bundle.main.path(forResource: "video", ofType: "mp4")!)
+        videoPlayer=AVPlayer(url: path as URL)
+        videoPlayer=AVPlayer(url: path as URL)
+        videoPlayerController = AVPlayerViewController()
+        videoPlayerController.player = videoPlayer
+        self.present(videoPlayerController, animated: true, completion: nil)
+        self.videoPlayerController.player?.play()
+        
+    }
 }
 
